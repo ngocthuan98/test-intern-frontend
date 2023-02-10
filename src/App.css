@@ -1,0 +1,115 @@
+:root {
+    --text-color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+}
+.navbar {
+    background-color: #191718;
+    width: 150px;
+    height: 935px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.navbar a {
+    text-decoration: none;
+    color: #aaa;
+    padding: 14px 0 10px 16px;
+    border-bottom: 1px solid #5c5c5c;
+    font-weight: 700;
+}
+.navbar a:hover {
+    background-color: #5c5c5c;
+    color: #fff;
+    cursor: default;
+}
+.navbar a:focus {
+    color: #fff;
+}
+
+.content {
+    height: 935px;
+    width: 1768px;
+    margin-left: 150px;
+}
+.logo {
+    background-image: url(/src/image/logoNCC\ 1.png);
+    width: 310px;
+    height: 122px;
+    margin: 20px 729px 30px;
+}
+
+.rectangle {
+    width: 1510px;
+    height: 210px;
+    background-color: #efefef;
+    margin: 0 129px;
+}
+
+.rectangle h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 38px 635px 18px 634px;
+}
+
+.rectangle-content {
+    font-weight: 400;
+    color: #000;
+    width: 972px;
+    height: 95px;
+    margin: 0 279px 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-content {
+    width: 1510px;
+    height: 252px;
+    margin: 40px 129px 183px;
+    display: flex;
+    gap: 50px;
+}
+.css-content {
+    width: 470px;
+    height: 252px;
+    display: float;
+}
+.css-content h1 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 18px;
+}
+
+.css-content .img {
+    width: 128px;
+    height: 128px;
+    float: left;
+    margin-right: 16px;
+}
+.footer {
+    width: 1768px;
+    height: 2px;
+    border-top: 1px solid #dedede;
+}
+.footer p {
+    font-weight: 400;
+    color: #3e3e3e;
+    margin: 30px 129px;
+}
